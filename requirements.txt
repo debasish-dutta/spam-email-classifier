@@ -41,7 +41,6 @@ pickleshare==0.7.5
 Pillow
 prometheus-client==0.8.0
 prompt-toolkit==3.0.5
-protobuf==3.12.3
 pyasn1==0.4.8
 pyasn1-modules==0.2.7
 pycodestyle==2.6.0
