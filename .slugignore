@@ -1,4 +1,7 @@
 Naive Bayes with Sckit-learn.ipynb
 Spam Email Classifier.ipynb
-SpamData
+SpamData/01_Processing/spam_assassin_corpus
+SpamData/01_Processing/wordcloud_resources
+SpamData/02_Training
+SpamData/03_Testing
 
