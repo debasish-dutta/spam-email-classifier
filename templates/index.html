@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">   
+    <title>Spam Email Classification</title>
+</head>
+
+<body> 
+<div id="bg" style="background-image: url('{{url_for('static', filename='images/unsplash-bg.jpg')}}');">
+<nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+                <!--<a id = "nav-bar-head" class="navbar-brand" style="text-align: center;" href="/">Used Car Selling Price Prediction</a> -->
+                <a href="https://github.com/ddmasterdon/" target="_blank" style="text-align: right;" class="icoGithub" title="Github"><i class="fa fa-github"></i></a>
+        </div>
+    </nav>
+    <div class="container" >
+        <form action="{{ url_for('predict')}}" method="post">
+            <h1>Spam Email Classification</h1>
+            <h3>Enter Email </h3>
+            <textarea name="mail" class="form-control is-invalid"  placeholder="Enter email" required="required" rows="4" cols="50"></textarea>
+            <br><br>
+            <button id="sub" type="submit " class="btn btn-info btn-lg">Check for spam</button>
+            <br>
+        </form>
+
+        <br><br><h3>{{ prediction_text }}<h3>
+    </div>
+</div>
+</body>
+</html>
