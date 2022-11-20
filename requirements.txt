@@ -25,7 +25,7 @@ jedi
 Jinja2==2.11.2
 joblib==1.2.0
 jsonify==0.5
-numpy==1.18.5
+numpy==1.22.0
 pandas
 pickleshare==0.7.5
 Pillow
