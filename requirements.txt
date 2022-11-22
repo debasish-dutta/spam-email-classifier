@@ -1,6 +1,7 @@
 Flask==2.2.2
 numpy
 pickleshare
+pandas
 scikit-learn
 jsonify
 gunicorn
