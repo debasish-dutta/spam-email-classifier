@@ -1,5 +1,4 @@
 from flask import Flask, redirect, url_for, render_template, request
-import requests
 import pickle
 import sklearn
 from sklearn.feature_extraction.text import CountVectorizer
