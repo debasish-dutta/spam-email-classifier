@@ -3,5 +3,4 @@ numpy
 pickleshare
 scikit-learn
 jsonify
-requests
 gunicorn
